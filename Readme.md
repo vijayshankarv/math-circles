@@ -1,4 +1,4 @@
 #Readme
 
+Notes for [Toronto math circles](http://www.torontomathcircles.ca/home.html).
 
-[Math circles website is here](http://www.torontomathcircles.ca/home.html)
