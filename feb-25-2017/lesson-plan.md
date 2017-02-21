@@ -15,6 +15,8 @@ Plan is to cover divide and conquer (binary search) using the coin weighing puzz
 ### A Fake among eight coins [2]
  There are eight identical-looking coins; one of these coins is counterfeit and is known to be lighter than the genuine coins. What is the minimum number of weighings needed to identify the fake coin with a two-pan balance scale without weights?
 
+ Each step of this can also be thought as finding one binary digit or bit when the fake coin can be represented using 3 bits. 
+
 This approach is better thought of as decrease and conquer [1] because the number of problems to be solved decreases at each step. 
 In divide and conquer methods, the size of the problems decrease, but the number of problems increase. 
 
@@ -30,6 +32,6 @@ How to transition from divide and conquer to dynamic programming ideas? - They a
 
 and then move on to the egg drop puzzle and 
 
-[1]: [Algorithmic Puzzles](https://www.amazon.ca/exec/obidos/ISBN=0199740445/ctksoftwareincA/), Levitin and Levitin. 
+[1]: [Algorithmic Puzzles](https://www.amazon.ca/exec/obidos/ISBN=0199740445/ctksoftwareincA/), A. Levitin and M. Levitin, Oxford University Press, 2011. 
 
 [2]: Original wording from [Cut the Knot](http://www.cut-the-knot.org/blue/EightCoins.shtml)
